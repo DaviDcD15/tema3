@@ -1,0 +1,43 @@
+package javaapplication.pkg3.pkg6;
+import java.util.Scanner;
+
+// Actividad resuelta 3.6
+
+
+/**
+ *
+ * @author cafet
+ */
+public class JavaApplication36 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+     
+     Scanner sc =new Scanner(System.in);
+        System.out.println("Introduzca un numero: ");
+     int n = sc.nextInt();
+     for (int i = 1; i <= n; i++){ // i tomara los valores de 1 a n
+         // la variable i es una variable del bloque de instrucciones del "for" 
+         // es decir, solo se pude utilizar en dicho bloque (su ambito es el bloque)
+         // Utilizar la variable i fuera del bloque genera un eror
+         
+         System.out.println(i); // monstramos i
+         
+         
+         
+         
+         
+         
+     }
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}

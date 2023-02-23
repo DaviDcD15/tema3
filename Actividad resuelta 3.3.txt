@@ -1,0 +1,56 @@
+
+// Actividad resuelta 3.3
+
+
+package javaapplication.pkg3.pkg3;
+import java.util.Scanner;
+
+/**
+ *
+ * @author JAVA
+ */
+public class JavaApplication33 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+     Scanner sc =new Scanner (System.in);
+     int numSecreto = (int) (Math.random() * 100 +1);
+     
+        System.out.println("Introduzca un numero entre 1 y 100:");
+        int num = sc.nextInt();
+        
+        while (numSecreto != num && num != -1){
+            if (numSecreto < num){
+            System.out.println("el numero introducido "+ num +" es mayor del buscado");
+        } 
+        
+        else {
+                System.out.println("el numero introducido "+ num +" es menor del buscado");
+        }
+        System.out.println("Introduzca otro numero:");
+            num =sc.nextInt();}
+        if (numSecreto == num) {
+            System.out.println("Enhorabuena...");
+         
+            
+        } else {
+            System.out.println("otra vez sera...");
+            
+        }   
+        
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
